@@ -1,9 +1,14 @@
- 
+ // Onbutton click this fuction is called
 function compute() {
+    //Principle amount value is store
     var principal = document.getElementById("principal").value;
+    //at what rate is amount is cal is stored
     var rate = document.getElementById("rate").value;
+    //for how many year value is stored
     var years = document.getElementById("years").value;
+    //Future year is calculate 
     var year = new Date().getFullYear()+ parseInt(years);
+    //validate the input if the value is less tthat or equal to 0 then it promt an alert box else it display the results!
     if(principal <= 0 ){
         alert("Enter a positive integer")
     }else{
