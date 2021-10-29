@@ -10,8 +10,8 @@ function compute() {
     var year = new Date().getFullYear()+ parseInt(years);
     //validate the input if the value is less tthat or equal to 0 then it promt an alert box else it display the results!
     if(principal <= 0 ){
-        document.getElementById("principal").focus();
         alert("Enter a positive integer")
+        document.getElementById("principal").focus();
         
     }else{
  
