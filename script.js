@@ -11,6 +11,7 @@ function compute() {
     //validate the input if the value is less tthat or equal to 0 then it promt an alert box else it display the results!
     if(principal <= 0 ){
         alert("Enter a positive integer")
+        document.getElementById("principal").focus();
     }else{
  
         var intrest = principal * years * rate / 100;
