@@ -1,29 +1,30 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 body {
-  background-color:black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: black;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 h1 {
     font-size: 24px;
-  color: black;
+    color: black;
 }
 .main-body {
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 15px;
-  margin-top: 250px;
-  width: 500px;
-  border-radius: 25px;
+    background-color: white;
+    padding: 30px 40px;
+    width: 500px;
+    border-radius: 25px;
 }
-label{
+label {
     font-size: 18px;
 }
- input[type=number]{
+input[type="number"] {
     width: 35%;
     padding: 10px 12px;
     margin: 8px 0;
@@ -31,25 +32,31 @@ label{
     border: 1px solid #ccc;
     border-radius: 4px;
     cursor: pointer;
-
 }
-button{
+
+select#years {
+    width: 150px;
+    height: 2em;
+}
+
+button {
     width: 50%;
     background-color: green;
     color: white;
     padding: 14px 20px;
+    margin-bottom: 10px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
 }
-button:hover{
+button:hover {
     background-color: #45a049;
 }
-a{
+a {
     text-decoration: none;
 }
-.credits{
-  display: flex;
-  justify-content: space-between;
-  margin: 10px;
+.credits {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
 }
