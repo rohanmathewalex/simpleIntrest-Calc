@@ -17,7 +17,7 @@ function compute() {
       //Simple interest logic
         var intrest = principal * years * rate / 100;
          //Display output result
-        document.getElementById("result").innerHTML = "IF you deposit" + "<mark>"+ principal + "</mark>"+ "<br>"+ "at an" + "<mark>"+rate +"%" +"</mark>"+ "<br>"+"you will recive an amount of" +"<mark>"+ intrest +"</mark>"+ "<br>" + "in the year" + "<mark>"+year+"</mark>" ;
+        document.getElementById("result").innerHTML = "IF you deposit" + "<mark>"+ principal + "</mark>"+ "<br>"+ "at an interest rate of" + "<mark>"+rate +"%" +"</mark>"+ "<br>"+"you will receive an amount of" +"<mark>"+ intrest +"</mark>"+ "<br>" + "in the year" + "<mark>"+year+"</mark>" ;
         
     }
    
